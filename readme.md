@@ -72,7 +72,9 @@ Example:
 
 ## External components
 
-Thanks to Chris Messina for making this overview http://factoryjoe.com/projects/smaylik
+Thanks to Chris Messina for making this overview http://factoryjoe.com/projects/emoticons
+
+Thanks to Oleg Slobodskoi for project https://github.com/kof/emoticons
 
 Skype icons included in the package have a special license, which is like BSD but without permission to modify them. See LICENSE file and original blog post.
 http://blogs.skype.com/2006/09/01/icons-and-strings

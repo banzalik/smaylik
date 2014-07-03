@@ -1,7 +1,7 @@
 {
     "name": "smaylik",
     "description": "Parse text emoticons and replace them by graphics. Make platform for generate css from png and configs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "maintainers": {
         "name": "Oleg Slobodskoi <oleg008@gmail.com>",
         "email": "Aleksandr Boichenko <banzalik@gmail.com>"
@@ -33,7 +33,7 @@
         "vow-fs": "^0.3.2"
     },
     "bin": {
-        "bem": "./bin/smaylik"
+        "smaylik": "./bin/smaylik"
     },
     "directories": {
         "lib": "./lib"

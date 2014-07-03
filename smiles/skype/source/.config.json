@@ -1,0 +1,14 @@
+{
+    "name": "skype",
+    "cssPrefix": ".cs-smile-",
+    "cssRules": {
+        "width": "19px",
+        "height": "19px",
+        "display": "inline-block",
+        "vertical-align": "middle",
+        "overflow": "hidden",
+        "text-indent": "-9999px",
+        "background-repeat": "no-repeat",
+        "background-position": "center center"
+    }
+}

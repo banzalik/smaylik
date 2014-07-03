@@ -1,23 +1,48 @@
 {
-    "name": "emoticons",
-    "description": "Parse text emoticons and replace them by graphics.",
-    "version": "0.1.7",
-    "author": {
-        "name": "Oleg Slobodskoi",
-        "email": "oleg008@gmail.com"
+    "name": "smaylik",
+    "description": "Parse text emoticons and replace them by graphics. Make platform for generate css from png and configs",
+    "version": "0.0.1",
+    "maintainers": {
+        "name": "Oleg Slobodskoi <oleg008@gmail.com>",
+        "email": "Aleksandr Boichenko <banzalik@gmail.com>"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:kof/emoticons.git"
+        "url": "git://github.com:banzalik/smaylik.git"
     },
-    "keywords": ["emoticon", "smily", "smilies", "emotify", "parser", "emoji", "skype"],
-    "engines": {},
-    "devDependencies": {},
+    "keywords": [
+        "emoticon",
+        "smily",
+        "smilies",
+        "emotify",
+        "parser",
+        "emoji",
+        "skype"
+    ],
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.2.32"
+    },
+    "devDependencies": {
+        "colors": "^0.6.2",
+        "commander": "^2.2.0",
+        "inherit": "^2.2.2",
+        "lodash": "^2.4.1",
+        "mime": "^1.2.11",
+        "vow": "^0.3.13",
+        "vow-fs": "^0.3.2"
+    },
+    "bin": {
+        "bem": "./bin/smaylik"
+    },
+    "directories": {
+        "lib": "./lib"
+    },
     "scripts": {},
     "licenses": [
         {
-           "type": "MIT",
-           "url": "http://www.opensource.org/licenses/mit-license.php"
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
         }
     ]
 }

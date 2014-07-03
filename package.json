@@ -1,7 +1,7 @@
 {
     "name": "smaylik",
     "description": "Parse text emoticons and replace them by graphics. Make platform for generate css from png and configs",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "maintainers": {
         "name": "Oleg Slobodskoi <oleg008@gmail.com>",
         "email": "Aleksandr Boichenko <banzalik@gmail.com>"
@@ -23,7 +23,7 @@
         "node": ">= 0.6.0",
         "npm": ">= 1.2.32"
     },
-    "devDependencies": {
+    "dependencies": {
         "colors": "^0.6.2",
         "commander": "^2.2.0",
         "inherit": "^2.2.2",

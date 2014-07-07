@@ -1,7 +1,7 @@
 {
     "name": "smaylik",
     "description": "Parse text emoticons and replace them by graphics. Make platform for generate css from png and configs",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "maintainers": {
         "name": "Oleg Slobodskoi <oleg008@gmail.com>",
         "email": "Aleksandr Boichenko <banzalik@gmail.com>"

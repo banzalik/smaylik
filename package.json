@@ -1,10 +1,10 @@
 {
-    "name": "smaylik",
+    "name": "smaylik-css",
     "description": "Parse text emoticons and replace them by graphics. Make platform for generate css from png and configs",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "maintainers": {
         "name": "Oleg Slobodskoi <oleg008@gmail.com>",
-        "email": "Aleksandr Boichenko <banzalik@gmail.com>"
+        "name": "Aleksandr Boichenko <banzalik@gmail.com>"
     },
     "repository": {
         "type": "git",
@@ -23,22 +23,12 @@
         "node": ">= 0.6.0",
         "npm": ">= 1.2.32"
     },
-    "dependencies": {
-        "colors": "^0.6.2",
-        "commander": "^2.2.0",
-        "inherit": "^2.2.2",
-        "lodash": "^2.4.1",
-        "mime": "^1.2.11",
-        "vow": "^0.3.13",
-        "vow-fs": "^0.3.2"
+    "devDependencies": {
+        "smaylik": "^0.2.1"
     },
-    "bin": {
-        "smaylik": "./bin/smaylik"
+    "scripts": {
+        "build": "node_modules/.bin/smaylik make -p smiles/skype/source/ && node_modules/.bin/smaylik make -p smiles/skype-gray/source/ "
     },
-    "directories": {
-        "lib": "./lib"
-    },
-    "scripts": {},
     "licenses": [
         {
             "type": "MIT",

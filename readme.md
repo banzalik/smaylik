@@ -4,12 +4,6 @@ This is a pure string based parser and has no dependencies to DOM or jquery.
 
 In order to insert an emoticon code into the textarea or input field you might want to use https://github.com/kof/field-selection
 
-## Make css file
-
-    $ smaylik make -p smiles/skype/source/
-
-After that smaylik create css file ```smiles/skype/source/smiles.css```
-
 ### Features
 - copy emotified text together with smaylik, exchangable between skype and other systems
 - every emoticon can have different codes, so, when parsing useres smaylik, different styles will be recognized

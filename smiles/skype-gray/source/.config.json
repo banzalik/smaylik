@@ -7,7 +7,7 @@
         "display": "inline-block",
         "vertical-align": "middle",
         "overflow": "hidden",
-        "text-indent": "19px",
+        "color": "transparent",
         "background-repeat": "no-repeat",
         "background-position": "center center"
     }

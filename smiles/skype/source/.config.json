@@ -8,6 +8,7 @@
         "vertical-align": "middle",
         "overflow": "hidden",
         "color": "transparent",
+        "text-shadow": "none",
         "background-repeat": "no-repeat",
         "background-position": "center center"
     }
